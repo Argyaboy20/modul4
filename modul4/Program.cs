@@ -11,10 +11,11 @@ internal class Program
         a.GetKodeBuah("Alpukat");
         a.GetKodeBuah("Pisang");
         a.GetKodeBuah("Paprika");
-        a.GetKodeBuah("Blackberry");
-        a.GetKodeBuah("Ceri");
-        a.GetKodeBuah("Kelapa");
-        a.GetKodeBuah("Jagung");
+        a.GetKodeBuah("Kurma");
+        a.GetKodeBuah("Durian");
+        a.GetKodeBuah("Anggur");
+        a.GetKodeBuah("Melon");
+        a.GetKodeBuah("Semangka");
     }
     class KodeBuah
     {
@@ -25,10 +26,11 @@ internal class Program
             {"Alpukat" ,"C00"},
             {"Pisang" ,"D00"},
             { "Paprika" ,"E00"},
-            { "Blackberry" ,"F00"},
-            { "Ceri" ,"H00"},
-            { "Kelapa" ,"I00"},
-            { "Jagung" ,"J00"},
+            { "Kurma" ,"K00"},
+            { "Durian" ,"L00"},
+            { "Anggur" ,"M00"},
+            { "Melon" ,"N00"},
+            {"Semangka" ,"O00" },
         };
         public void GetKodeBuah(string KodeBuah)
         {
